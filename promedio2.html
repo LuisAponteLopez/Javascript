@@ -1,0 +1,33 @@
+<html>
+<head>
+<title> 
+</title>
+
+        
+
+
+</head>
+ <body>
+<SCRIPT >
+     alert("Este programa te va a pedir que ingrese la cantidad de numero que desea sacarle el promedio");
+           var cantidad = prompt("Ingrese la cantidad de numero que desees sacarle promedio");
+           var numeroSuma = 0,
+            contador = 1;
+           
+          
+         
+           for ( i=1 ; i <= parseFloat(cantidad) ; i++ ){
+           var numero = prompt("Ingrese el numero "+ contador + ": ");    
+           numeroSuma=numeroSuma + parseFloat(numero);
+           contador++;
+            }
+        
+   
+   
+    var promedio =numeroSuma/cantidad ; 
+    
+        document.write("El promedio de los " + cantidad+ " numero es: "+ promedio);
+
+ </SCRIPT>   
+</body>
+</html>
